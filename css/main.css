@@ -6,3 +6,19 @@
     text-decoration: none;
     color: blue;
   }
+  .image-link{
+    text-decoration: none;
+  }
+  .table-data{
+    padding: 10px;
+  }
+  .block-quote{
+    font-style: italic; 
+    font-size: 20px;
+  }
+  .ishmael{
+    font-style: normal; 
+    font-size: 24 px; 
+    font-weight: bold; 
+    color: red;
+  }
