@@ -5,11 +5,19 @@
     <meta charset="utf-8">
   </head>
   <body>
-    <h1>Important HTML tags</h1>
 
-        <a href="https://www.flickr.com/photos/jdhancock/3814523970">
-        <img src="images/storm_trooper_tagged.jpg" alt="Tagged Storm Trooper">
-        </a>
+    <div>
+        <a href="index.html">Home</a>
+        <a href="tags.html">HTML Tags</a>
+        <a href="moby_dick.html">Moby Dick</a>
+      </div>
+    
+    <h1>Important HTML tags</h1>
+        
+    <a href="https://www.flickr.com/photos/jdhancock/3814523970">
+    <img src="images/storm_trooper_tagged.jpg" alt="Tagged Storm Trooper">
+    </a>
+    
     <p>
       This page is designed as a quick reference for some of the common tags
       covered in <a href="https://learnenough.com/html"><em>Learn
@@ -23,13 +31,16 @@
       the most important ones.
     </p>
 
-    <h2>Block Elements</h2>
+    <h2><span>Block Elements</span></h2>
 
+    <div>
     <table>
         <tr>
+            <header>
             <th>Tag</th>
             <th>Name</th>
             <th>Purpose</th>
+            </header>
         </tr>
         <tr>
             <td><code>h1</code>&ndash;<code>h6</code></td>
@@ -61,17 +72,31 @@
             <td>table data</td>
             <td>include a table data cell</td>
           </tr>
+          <tr>
+            <td><code>ol</code></td>
+            <td>ordered list</td>
+            <td>include a numbered list</td>
+          </tr>
+          <tr>
+            <td><code>ul</code></td>
+            <td>unordered list</td>
+            <td>include a bullet points list</td>
+          </tr>
     </table>
+    </div>
+    
+    <h2><span>Inline Elements</span></h2>
 
-    <h2>Inline Elements</h2>
-
+    <div>
     <table>
         <tr>
+            <header>
             <th>Tag</th>
             <th>Name</th>
             <th>Purpose</th>
             <th>Example</th>
             <th>Result</th>
+            </header>
         </tr>
         <tr>
             <td><code>em</code></td>
@@ -118,6 +143,14 @@
             <td><code>&lt;code&gt;table&lt;/code&gt;</code></td>
             <td><code>table</code></td>
         </tr>
-        </table>
+        <tr>
+            <td><code>li</code></td>
+            <td>list</td>
+            <td>adds a element in a list</td>
+            <td><code>&lt;li&gt;list&lt;/li&gt;</code></td>
+            <td><li>list</li></td>
+        </tr>
+    </table>
+    </div>
     </body>
 </html>
